@@ -47,7 +47,7 @@ It is not recommended to install all tools.
 git clone https://github.com/s-h-3-l-l/katoolin3;
 cd katoolin3;
 chmod +x ./install.sh;
-sudo ./install.sh;
+sudo ./install-mod.sh;
 ```
 
 __Important:__ If you get the error ```Please install the python3-apt package```
@@ -99,3 +99,19 @@ chmod +x ./uninstall.sh;
 sudo ./uninstall.sh;
 ```
 Uninstalling the Kali tools can be done inside katoolin3.
+
+NOTE :
+This program is not built by me, I just fixed some errors by troubleshooting some ERROR messages, with the creation of a new file install-mod.sh
+There are ERROR messages shown:
+ERROR 1
+Executing: /tmp/apt-key-gpghome.1W0b3PytX0/gpg.1.sh -qq --keyserver pool.sks-keyservers.net --recv-keys ED444FF07D8D0BF6
+gpg: keyserver receive failed: No name
+Executing: /tmp/apt-key-gpghome.j54UFnCqaJ/gpg.1.sh -qq --keyserver hkp://pool.sks-keyservers.net:80 --recv-keys ED444FF07D8D0BF6
+gpg: keyserver receive failed: No name
+ERROR 2
+Executing: /tmp/apt-key-gpghome.v5hmGiQXTN/gpg.1.sh -qq --keyserver pool.sks-keyservers.net --recv-keys ED444FF07D8D0BF6
+gpg: keyserver receive failed: Server indicated a failure
+Executing: /tmp/apt-key-gpghome.lDPof8wLvi/gpg.1.sh -qq --keyserver hkp://pool.sks-keyservers.net:80 --recv-keys ED444FF07D8D0BF6
+gpg: keyserver receive failed: Server indicated a failure
+This may be a server issue. Please try again later
+
