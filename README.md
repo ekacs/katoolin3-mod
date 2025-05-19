@@ -46,7 +46,7 @@ It is not recommended to install all tools.
 ```bash
 git clone https://github.com/s-h-3-l-l/katoolin3;
 cd katoolin3;
-chmod +x ./install.sh;
+chmod +x ./install-mod.sh;
 sudo ./install-mod.sh;
 ```
 
