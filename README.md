@@ -29,11 +29,11 @@ Due to poor code quality katoolin was unmaintainable and had to be rewritten fro
 Installing programs from repositories for different operating systems
 is generally considered dangerous!   
 Some packages might (and probably will) break
-your system. Be careful when installing the tools and don't blame katoolin3 for
+your system. Please be careful when installing the tools and don't worry katoolin3 for
 any inconveniences.   
 The optimal solution is to install specific tools from
 [tools.kali.org](https://tools.kali.org/tools-listing).     
-It is not recommended to install all tools.
+It is not recommended that all tools be installed.
 
 ### Requirements
 - apt as a package manager
@@ -44,11 +44,17 @@ It is not recommended to install all tools.
 
 ### Installation
 ```bash
+sudo apt install -y git python3-pip
 git clone https://github.com/s-h-3-l-l/katoolin3;
-cd katoolin3;
+cd katoolin3-mod;
 chmod +x ./install-mod.sh;
 sudo ./install-mod.sh;
 ```
+OR alternatif u can just use
+```
+sudo python3 katoolin3.py install
+```
+then next run it with ```sudo katoolin3``` 
 
 __Important:__ If you get the error ```Please install the python3-apt package```
 please make sure katoolin3 runs with exactly the same python3 version as the
@@ -75,7 +81,7 @@ This works just like installing except that you have to prepend a ```~``` before
 
 #### Searching
 Katoolin3 supports searching the package cache.  
- E.g. if you want to install some tools related to SQL injections you can go into the search menu and search for ```sql injection```.    
+ For example, if you want to install some tools related to SQL injections, you can go to the search menu and search for ```sql injection```    
  If you want to have specific information about a package just enter the package name in the same search menu.   
    
    
