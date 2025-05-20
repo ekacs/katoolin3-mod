@@ -44,11 +44,12 @@ It is not recommended that all tools be installed.
 
 ### Installation
 ```bash
+sudo apt update
 sudo apt install -y git python3-pip
-git clone https://github.com/s-h-3-l-l/katoolin3;
-cd katoolin3-mod;
-chmod +x ./install-mod.sh;
-sudo ./install-mod.sh;
+git clone https://github.com/s-h-3-l-l/katoolin3
+cd katoolin3-mod
+chmod +x ./install-mod.sh
+sudo ./install-mod.sh
 ```
 OR alternatif u can just use
 ```
