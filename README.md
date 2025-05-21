@@ -53,6 +53,7 @@ sudo ./install-mod.sh
 ```
 OR alternatif u can just use
 ```
+sudo apt install python3-apt
 sudo python3 katoolin3.py install
 ```
 then next run it with ```sudo katoolin3``` 
